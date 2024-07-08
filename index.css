@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #0d5f02;
+}
+button{
+    cursor: pointer;
+    background-color: yellow;
+    border: none;
+    padding: 10px;
+    font-size: 15px;
+}
+.deck{
+    display: flex;
+    flex-direction: column;
+    height: 80vh;
+    gap: 10px;
+    position: relative;
+}
+.card{
+    width: 100px;
+    height: 150px;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+    position: absolute;
+    backface-visibility: hidden;
+}
+#draw-card{
+    position: fixed;
+    bottom: 20px;
+    
+    width: 100vw;
+    
+}
+#new-deck{
+    position: absolute;
+    top: 10px;
+    
+    
+}
+#card{
+   display: flex;
+   margin: auto;
+    
+  
+}
