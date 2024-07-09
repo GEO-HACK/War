@@ -1,23 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- stylesheet -->
-     <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="index.css" />
     <title>Document</title>
-</head>
-<body>
-   
+  </head>
+  <body>
     <p id="deck-id"></p>
     <div class="deck">
-        <button id="new-deck">New Deck please!</button>
-    <button id="draw-card">Draw</button>
-    <div id="card"></div>
-    </div>
-    
-</body>
-    
+      <button id="new-deck">New Deck please!</button>
+      <p id="remaining">Remaining cards :</p>
 
-<script type="module" src="index.js"></script>
+      <p id="display">Game</p>
+      <h3 id="score1">Computer score:</h3>
+
+      <div id="card">
+        <div class="card-slot">
+          <img src="" alt="" id="card-img" />
+        </div>
+        <div class="card-slot">
+          <img src="" alt="" id="card-img2" />
+        </div>
+      </div>
+      <h3 id="score2">My Score:</h3>
+
+      <button id="draw-card">Draw</button>
+    </div>
+  </body>
+
+  <script type="module" src="index.js"></script>
 </html>
